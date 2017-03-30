@@ -1,8 +1,8 @@
 ---
-title: About
-permalink: /about/
+title: SoulCoder
+About me: /about/
 ---
 
-<p class="heavy-title"><a href="http://github.com/thinker3197/Ink">Ink</a> is a simple & minimalistic theme for <a href="http://jekyllrb.com">Jekyll</a>, a static site generator.</p>
+<p class="heavy-title"><a href="https://github.com/taomylife521">SoulCoder</a> is My GitHub Account , If you want to cantact to me. Go!</p>
 
->Designed and developed by [@thinker3197](https://github.com/thinker3197).
+>Copy Designed and developed by [taomylife521](https://github.com/taomylife521).
