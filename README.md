@@ -1,17 +1,50 @@
-# Jekyll Modern Blog
+# Ink
 
-A Simple, Clean and responsive modern blog for jekyll.
+Ink is a minmal two-column theme for [Jekyll](http://jekyllrb.com) 
 
-## [Live Demo](http://inded.github.io/Jekyll_modern-blog/)
+![Screenshot](https://s32.postimg.org/gdtp6pw1x/ink.png)
 
-## Attributions
-Based off of this [article from Codrops](http://tympanus.net/codrops/?p=24222)
-Using Sample images from [Fancy Crave](http://fancycrave.com/)
+# Installation 
 
-## License
+##### Setup on your local machine
+ * Clone or download the repository
+ * You should have [ruby](https://www.ruby-lang.org/en/) installed in your system
+ * Install bundler which helps in specifying and installing dependencies of any Ruby project ```gem install bundler```
+ * Go to the root of the repo and run this - ```bundle install```
+ * Then - ```bundle exec jekyll serve```
 
-Based off of this [Article on Codrops](http://tympanus.net/codrops/?p=24222)
+##### Make it your own
+ * Fork the repository
+ * Follow the configuration step
+ * Host your site/blog with **Ink**
 
-Created by Claudio Calautti for Codrops. Released under the [GNU GPL license v3](https://www.gnu.org/licenses/gpl-3.0.html).
+# Configuration 
+ * Change the following in ```_config.yml```
+ ```
+    name:               "Ink"
+    description:        "A minimalistic jekyll theme for humans"
+    url:                ""
+    author:             "thinker3197"
+    email:              "jhondoe@abc.com"
+    gravatar_hash:      "205e460b479e2e5b48aec07710c08d50"
+    twitter:            "jhondoe"
+    email:              "jhondoe@abc.com"
+    github:             "jhondoe"
+    pinterest:          "jhondoe"
+    linkedin:           "jhondoe"
+    facebook:           "jhondoe"
+    
+ ```
+ * Set the number of posts that appear in each page by changing the ```paginate``` option in ```_config.yml``` file. Default value is 5.
+ * Add more navigation menus in the ```nav``` section in ```_config.yml```. 
+ * Add your custom url in ```url``` option. Example : http://thinker3197.github.io/blog. Consult the ```gh-pages``` branch to see the basic setup for a blog.
+ * Add your custom background by adding a custom background link in the ```background``` option in ```_config.yml```.
+ 
+# Licensce
 
-Changes being that I made it jekyll ready and smushed the CSS together.
+Open sourced under [MIT LICENSE](https://github.com/thinker3197/ink/blob/master/LICENSE) 
+
+
+
+
+
