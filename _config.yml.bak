@@ -14,7 +14,7 @@ facebook:           ""
 
 disqus_shortname:   "SoulCoder"
 
-background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
+background:         "http://files.cnblogs.com/files/taomylife/9649318.ico"
 
 paginate:           5
 paginate_path:      "/page:num/"
