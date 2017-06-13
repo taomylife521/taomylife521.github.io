@@ -26,7 +26,8 @@ title: 关于我
 <h3> 我们的博客 </h3>  
 
 
-GitHub地址在 <a target="_blank" href='https://github.com/taomylife521/'>Github</a> 上，期待你的 Star 谢谢~
+
+博客源码在 <a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io/'>Github</a> 上，期待你的 Star 谢谢~
 
 {% include comments.html %}
 
