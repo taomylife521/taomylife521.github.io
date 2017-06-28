@@ -25,7 +25,9 @@ http://flyingdutchman.iteye.com/blog/1885566
 
 2）然后运行安装程序，rabbitmq-server-3.6.10.exe。大约需要2分钟，并将RabbitMQ设置为一个服务，并配置默认配置.
 
+
 ##3.运行RabbitMQ服务##
+
 > **自定义RabbitMQ环境变量**
 > 
 > 该服务将使用其默认设置运行良好。您可能需要[自定义RabbitMQ环境](http://www.rabbitmq.com/configure.html#customise-windows-environment)或编辑[配置](http://www.rabbitmq.com/configure.html#configuration-file)。
@@ -76,7 +78,9 @@ http://flyingdutchman.iteye.com/blog/1885566
 >  
 >  如果没有代理程序正在运行（即，nodedown），所有的rabbitmqctl命令将报告节点缺失。更多信息参见:[rabbitmqctl](http://www.rabbitmq.com/man/rabbitmqctl.1.man.html)
 
+
 ##4.日志记录##
+
 
 来自服务器的输出将发送到RABBITMQ\_LOG\_BASE目录中的RABBITMQ_NODENAME.log文件。
 
@@ -84,7 +88,9 @@ http://flyingdutchman.iteye.com/blog/1885566
 
 您可以使用rabbitmqctl rotate_logs轮换日志
 
+
 ##5.作为服务运行时的故障排除##
+
 如果Erlang VM在RabbitMQ作为服务运行时崩溃,不是将崩溃转储写入当前目录（这对服务没有意义），它将写入RabbitMQ服务器的基本目录中的erl_crash.dump文件（由RABBITMQ_BASE环境变量设置）。默认为％APPDATA％\％RABBITMQ_SERVICENAME％ - 通常为％APPDATA％\ RabbitMQ）。
 > **Windows特定的问题**
 > 
